@@ -4,33 +4,20 @@
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="25%"><a href="https://github.com/DawnZYC?tab=repositories"><img src="https://img.shields.io/badge/Repositories-020617?style=for-the-badge&logo=github&logoColor=white&labelColor=020617&color=38bdf8" alt="Repositories"></a></td>
-    <td align="center" width="25%"><a href="https://github.com/DawnZYC?tab=stars"><img src="https://img.shields.io/badge/Stars-020617?style=for-the-badge&logo=github&logoColor=white&labelColor=020617&color=a78bfa" alt="Stars"></a></td>
-    <td align="center" width="25%"><a href="mailto:zyce1351679@gmail.com"><img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=white&labelColor=020617&color=f97316" alt="Email"></a></td>
-    <td align="center" width="25%"><a href="https://www.linkedin.com/in/yuchen-zhang-2026nusse/"><img src="https://img.shields.io/badge/LinkedIn-020617?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=020617&color=0ea5e9" alt="LinkedIn"></a></td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/DawnZYC?tab=repositories"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
+  <a href="https://github.com/DawnZYC?tab=stars"><img src="https://img.shields.io/badge/Stars-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Stars"></a>
+  <a href="mailto:zyce1351679@gmail.com"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/yuchen-zhang-2026nusse/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <strong>Agent Systems</strong><br>
-      orchestration / tools / streaming
-    </td>
-    <td align="center" width="33%">
-      <strong>RAG Quality</strong><br>
-      retrieval / evaluation / grounding
-    </td>
-    <td align="center" width="33%">
-      <strong>Product Engineering</strong><br>
-      APIs / UX / deployment
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="https://img.shields.io/badge/Agent%20Systems-planning%20%2F%20tools%20%2F%20structured%20output-38bdf8?style=for-the-badge&labelColor=020617" alt="Agent Systems">
+  <img src="https://img.shields.io/badge/RAG%20Quality-citations%20%2F%20refusal%20%2F%20evaluation-a78bfa?style=for-the-badge&labelColor=020617" alt="RAG Quality">
+  <img src="https://img.shields.io/badge/Product%20Engineering-streaming%20UX%20%2F%20APIs%20%2F%20deployment-22c55e?style=for-the-badge&labelColor=020617" alt="Product Engineering">
+</p>
 
 <br>
 
@@ -38,11 +25,9 @@
 
 <br>
 
-<h2>Systems that connect language, tools, data, and product experience.</h2>
+<h1>I build AI systems that retrieve, reason, call tools, and actually ship.</h1>
 
-<p>
-  I like building AI applications where retrieval is measurable, agent behavior is observable, and the interface makes complex workflows feel direct.
-</p>
+<h3>RAG that cites sources. Agents that expose their work. Interfaces that stream instead of making people wait.</h3>
 
 <br>
 
@@ -66,12 +51,12 @@
 <br>
 
 <p>
-  <img src="https://img.shields.io/badge/LangGraph-020617?style=for-the-badge&labelColor=020617&color=38bdf8" alt="LangGraph">
-  <img src="https://img.shields.io/badge/LangChain-020617?style=for-the-badge&labelColor=020617&color=22c55e" alt="LangChain">
-  <img src="https://img.shields.io/badge/LlamaIndex-020617?style=for-the-badge&labelColor=020617&color=a78bfa" alt="LlamaIndex">
-  <img src="https://img.shields.io/badge/ChromaDB-020617?style=for-the-badge&labelColor=020617&color=f97316" alt="ChromaDB">
-  <img src="https://img.shields.io/badge/PostgreSQL-020617?style=for-the-badge&labelColor=020617&color=3b82f6" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Docker-020617?style=for-the-badge&labelColor=020617&color=2563eb" alt="Docker">
+  <img src="https://img.shields.io/badge/LangGraph-020617?style=for-the-badge&logo=graphql&logoColor=white&labelColor=020617&color=38bdf8" alt="LangGraph">
+  <img src="https://img.shields.io/badge/LangChain-020617?style=for-the-badge&logo=chainlink&logoColor=white&labelColor=020617&color=22c55e" alt="LangChain">
+  <img src="https://img.shields.io/badge/LlamaIndex-020617?style=for-the-badge&logo=readthedocs&logoColor=white&labelColor=020617&color=a78bfa" alt="LlamaIndex">
+  <img src="https://img.shields.io/badge/ChromaDB-020617?style=for-the-badge&logo=databricks&logoColor=white&labelColor=020617&color=f97316" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/PostgreSQL-020617?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=020617&color=3b82f6" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-020617?style=for-the-badge&logo=docker&logoColor=white&labelColor=020617&color=2563eb" alt="Docker">
 </p>
 
 </div>
