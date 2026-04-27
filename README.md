@@ -8,15 +8,7 @@
   <a href="https://github.com/DawnZYC?tab=repositories"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
   <a href="https://github.com/DawnZYC?tab=stars"><img src="https://img.shields.io/badge/Stars-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Stars"></a>
   <a href="mailto:zyce1351679@gmail.com"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/yuchen-zhang-2026nusse/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
-
-<br>
-
-<p>
-  <img src="https://img.shields.io/badge/Agent%20Systems-planning%20%2F%20tools%20%2F%20structured%20output-38bdf8?style=for-the-badge&labelColor=020617" alt="Agent Systems">
-  <img src="https://img.shields.io/badge/RAG%20Quality-citations%20%2F%20refusal%20%2F%20evaluation-a78bfa?style=for-the-badge&labelColor=020617" alt="RAG Quality">
-  <img src="https://img.shields.io/badge/Product%20Engineering-streaming%20UX%20%2F%20APIs%20%2F%20deployment-22c55e?style=for-the-badge&labelColor=020617" alt="Product Engineering">
+  <a href="https://www.linkedin.com/in/yuchen-zhang-2026nusse/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 <br>
@@ -25,9 +17,9 @@
 
 <br>
 
-<h1>I build AI systems that retrieve, reason, call tools, and actually ship.</h1>
+<h1>一生如编残章，未必无瑕；<br>然尚可行于世，笑于风尘，偶然生出几分惊艳。</h1>
 
-<h3>RAG that cites sources. Agents that expose their work. Interfaces that stream instead of making people wait.</h3>
+<h3>This life was written in imperfect code,<br>yet it moved through the world,<br>laughed beneath the dust of days,<br>and sometimes bloomed into wonder.</h3>
 
 <br>
 
