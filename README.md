@@ -12,7 +12,7 @@
 <p>
   <a href="https://github.com/DawnZYC?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
   <a href="https://github.com/DawnZYC?tab=stars"><img src="https://img.shields.io/badge/Stars-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Stars"></a>
-  <a href="mailto:zyc524092761@163.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:zyce1351679@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/yuchen-zhang-2026nusse/"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
