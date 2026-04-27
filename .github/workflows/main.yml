@@ -26,6 +26,73 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Generate profile hero
+        run: |
+          cat > dist/profile-hero.svg <<'SVG'
+          <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#020617"/>
+                <stop offset="0.5" stop-color="#0f172a"/>
+                <stop offset="1" stop-color="#07121f"/>
+              </linearGradient>
+              <linearGradient id="accent" x1="160" y1="50" x2="1050" y2="380" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#38bdf8"/>
+                <stop offset="0.48" stop-color="#a78bfa"/>
+                <stop offset="1" stop-color="#22c55e"/>
+              </linearGradient>
+              <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#111827" stop-opacity="0.96"/>
+                <stop offset="1" stop-color="#020617" stop-opacity="0.96"/>
+              </linearGradient>
+              <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+                <feGaussianBlur stdDeviation="18" result="blur"/>
+                <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.74 0 0 0 0 0.97 0 0 0 0.45 0"/>
+                <feBlend in="SourceGraphic" mode="screen"/>
+              </filter>
+              <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+                <path d="M34 0H0V34" stroke="#94a3b8" stroke-opacity="0.08"/>
+              </pattern>
+            </defs>
+            <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+            <rect width="1200" height="420" rx="34" fill="url(#grid)"/>
+            <path d="M60 330C190 220 280 360 420 230C560 100 620 130 735 215C850 300 980 240 1138 98" stroke="url(#accent)" stroke-opacity="0.32" stroke-width="2"/>
+            <circle cx="993" cy="98" r="148" fill="#38bdf8" opacity="0.12" filter="url(#glow)"/>
+            <circle cx="178" cy="314" r="138" fill="#22c55e" opacity="0.1" filter="url(#glow)"/>
+            <g transform="translate(72 70)">
+              <text x="0" y="34" fill="#94a3b8" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="18" letter-spacing="2">AI AGENT ENGINEER</text>
+              <text x="0" y="108" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800">DawnZYC</text>
+              <text x="4" y="154" fill="#cbd5e1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">RAG / Multi-Agent Systems / Tool Calling / Full-Stack AI</text>
+              <g transform="translate(0 204)">
+                <rect x="0" y="0" width="158" height="42" rx="21" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5"/>
+                <text x="28" y="27" fill="#e0f2fe" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="14">LangGraph</text>
+                <rect x="174" y="0" width="164" height="42" rx="21" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.5"/>
+                <text x="202" y="27" fill="#dcfce7" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="14">LlamaIndex</text>
+                <rect x="354" y="0" width="126" height="42" rx="21" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.5"/>
+                <text x="384" y="27" fill="#ede9fe" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="14">FastAPI</text>
+              </g>
+            </g>
+            <g transform="translate(746 72)">
+              <rect x="0" y="0" width="382" height="276" rx="22" fill="url(#panel)" stroke="#334155"/>
+              <rect x="0" y="0" width="382" height="44" rx="22" fill="#0f172a"/>
+              <circle cx="28" cy="22" r="6" fill="#ef4444"/>
+              <circle cx="50" cy="22" r="6" fill="#f59e0b"/>
+              <circle cx="72" cy="22" r="6" fill="#22c55e"/>
+              <text x="26" y="78" fill="#38bdf8" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="15">$ agent.run()</text>
+              <text x="26" y="112" fill="#cbd5e1" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="14">plan  -&gt; retrieve -&gt; reason</text>
+              <text x="26" y="142" fill="#cbd5e1" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="14">tools -&gt; stream   -&gt; ship</text>
+              <path d="M74 206H168M214 206H308M168 206C168 176 214 176 214 206C214 236 168 236 168 206Z" stroke="url(#accent)" stroke-width="2"/>
+              <circle cx="74" cy="206" r="22" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+              <circle cx="191" cy="206" r="30" fill="#020617" stroke="#a78bfa" stroke-width="2"/>
+              <circle cx="308" cy="206" r="22" fill="#020617" stroke="#22c55e" stroke-width="2"/>
+              <text x="63" y="211" fill="#e0f2fe" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12">RAG</text>
+              <text x="177" y="211" fill="#ede9fe" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12">LLM</text>
+              <text x="291" y="211" fill="#dcfce7" font-family="'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12">API</text>
+            </g>
+            <rect x="1" y="1" width="1198" height="418" rx="33" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="2"/>
+          </svg>
+          SVG
+
       - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
